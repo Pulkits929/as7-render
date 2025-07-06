@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>To Do</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body class="bgimg">
+        <div >
+        <div class="box first">
+            <h1>To Do list</h1>
+        </div>
+        <div class="box">
+            
+            <% for(var i=0; i<ejes.length ; i++){ %>
+                <div class="item-row">
+                <input type="checkbox" class="task-checkbox">
+                <p class="task-text"> <%= ejes[i] %></p>
+                </div>
+            <% } %>
+            
+
+            <form action="/" method="post">
+                <input type="text" name="ele1" placeholder="Enter the task...">
+                <button type="submit">+</button>
+            </form>
+        </div>
+        
+        
+    </body>
+</html>

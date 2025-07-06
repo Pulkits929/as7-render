@@ -1,0 +1,70 @@
+body{
+    font-family: "Raleway", sans-serif;
+    color: black;
+    
+}
+.bgimg {
+    background-image: url("/images/wallpaperflare.com_wallpaper (1).jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.box{
+    margin-left: 30%;
+    font-size: 20px;
+    background-color: #ffffffbf;
+    color: black;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0);
+
+}
+.first{
+    
+    margin-top: 5%;
+}
+button{
+    
+    width: 40px;
+    margin: 10px auto;
+    background-color: purple;
+    font-size: 20px;
+    height: 40px;
+    color: #9c9c9d;
+    border-radius: 50%;
+    box-shadow: 10px 4px 10px #252525,5px 5px 18px #4a4a4a;
+    border-color: transparent;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in-out;
+}
+button:hover{
+    box-shadow: inset 3px 2px 5px #252525,inset 2px 3px 9px #4a4a4a;
+    transform: rotate(90deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+.item-row {
+    display: flex;
+    min-height: 50px;
+    margin-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid #4a4a4aae;
+}
+.item-row p {
+    margin: 0;
+    margin-left: 25px;
+}
+.task-checkbox:checked + .task-text {
+    text-decoration: line-through;
+    color: gray;
+  }
+.task-checkbox{
+    height: 18px;
+    width: 18px;
+
+}
